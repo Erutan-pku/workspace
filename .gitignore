@@ -1,0 +1,9 @@
+.doc
+*.docx
+*.pyc
+*.xlsx
+#*.gz
+#*.zip
+#*.rar
+__ignore__.*
+*moreInfor*
