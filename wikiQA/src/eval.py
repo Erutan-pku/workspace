@@ -66,7 +66,7 @@ def get_prf(fref, fpred, thre=0.1):
     return [prec, reca, 2.0*prec*reca/(prec+reca), qprec, qreca, 2.0*qprec*qreca/(qprec+qreca), qacc]
 
 
-
+# python eval.py ../data/WikiQA-dev.ref ../reasult/dev_truth_raw 
 if __name__ == "__main__":
     refname, predname = sys.argv[1], sys.argv[2]
     thre = 0.11
