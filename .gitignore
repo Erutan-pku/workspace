@@ -8,3 +8,4 @@
 __ignore__.*
 *moreInfor*
 *NLPCC_KBQA*
+NLPCC_DBQA/data/vectorsw300l20.all
